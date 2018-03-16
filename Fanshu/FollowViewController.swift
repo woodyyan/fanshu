@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  Fanshu
 //
 //  Created by Songbai Yan on 16/03/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class FollowViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

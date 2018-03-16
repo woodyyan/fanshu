@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		82E7ACA1205B9FA7006FC9E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACA0205B9FA7006FC9E5 /* AppDelegate.swift */; };
-		82E7ACA3205B9FA7006FC9E5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACA2205B9FA7006FC9E5 /* FirstViewController.swift */; };
-		82E7ACA5205B9FA7006FC9E5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACA4205B9FA7006FC9E5 /* SecondViewController.swift */; };
+		82E7ACA3205B9FA7006FC9E5 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACA2205B9FA7006FC9E5 /* FollowViewController.swift */; };
+		82E7ACA5205B9FA7006FC9E5 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACA4205B9FA7006FC9E5 /* DiscoveryViewController.swift */; };
 		82E7ACA8205B9FA8006FC9E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E7ACA6205B9FA8006FC9E5 /* Main.storyboard */; };
 		82E7ACAA205B9FA8006FC9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E7ACA9205B9FA8006FC9E5 /* Assets.xcassets */; };
 		82E7ACAD205B9FA8006FC9E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E7ACAB205B9FA8006FC9E5 /* LaunchScreen.storyboard */; };
 		82E7ACB8205B9FA8006FC9E5 /* FanshuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACB7205B9FA8006FC9E5 /* FanshuTests.swift */; };
 		82E7ACC3205B9FA8006FC9E5 /* FanshuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACC2205B9FA8006FC9E5 /* FanshuUITests.swift */; };
+		82E7ACD1205BA4A8006FC9E5 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACD0205BA4A8006FC9E5 /* MessageViewController.swift */; };
+		82E7ACD3205BA4C1006FC9E5 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACD2205BA4C1006FC9E5 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,8 @@
 /* Begin PBXFileReference section */
 		82E7AC9D205B9FA7006FC9E5 /* Fanshu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fanshu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E7ACA0205B9FA7006FC9E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82E7ACA2205B9FA7006FC9E5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		82E7ACA4205B9FA7006FC9E5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		82E7ACA2205B9FA7006FC9E5 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		82E7ACA4205B9FA7006FC9E5 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
 		82E7ACA7205B9FA8006FC9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82E7ACA9205B9FA8006FC9E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82E7ACAC205B9FA8006FC9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		82E7ACBE205B9FA8006FC9E5 /* FanshuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanshuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E7ACC2205B9FA8006FC9E5 /* FanshuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanshuUITests.swift; sourceTree = "<group>"; };
 		82E7ACC4205B9FA8006FC9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E7ACD0205BA4A8006FC9E5 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		82E7ACD2205BA4C1006FC9E5 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				82E7ACA0205B9FA7006FC9E5 /* AppDelegate.swift */,
-				82E7ACA2205B9FA7006FC9E5 /* FirstViewController.swift */,
-				82E7ACA4205B9FA7006FC9E5 /* SecondViewController.swift */,
+				82E7ACA2205B9FA7006FC9E5 /* FollowViewController.swift */,
+				82E7ACA4205B9FA7006FC9E5 /* DiscoveryViewController.swift */,
 				82E7ACA6205B9FA8006FC9E5 /* Main.storyboard */,
 				82E7ACA9205B9FA8006FC9E5 /* Assets.xcassets */,
 				82E7ACAB205B9FA8006FC9E5 /* LaunchScreen.storyboard */,
 				82E7ACAE205B9FA8006FC9E5 /* Info.plist */,
+				82E7ACD0205BA4A8006FC9E5 /* MessageViewController.swift */,
+				82E7ACD2205BA4C1006FC9E5 /* MyViewController.swift */,
 			);
 			path = Fanshu;
 			sourceTree = "<group>";
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82E7ACA5205B9FA7006FC9E5 /* SecondViewController.swift in Sources */,
+				82E7ACA5205B9FA7006FC9E5 /* DiscoveryViewController.swift in Sources */,
 				82E7ACA1205B9FA7006FC9E5 /* AppDelegate.swift in Sources */,
-				82E7ACA3205B9FA7006FC9E5 /* FirstViewController.swift in Sources */,
+				82E7ACD1205BA4A8006FC9E5 /* MessageViewController.swift in Sources */,
+				82E7ACD3205BA4C1006FC9E5 /* MyViewController.swift in Sources */,
+				82E7ACA3205B9FA7006FC9E5 /* FollowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
