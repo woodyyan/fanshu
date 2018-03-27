@@ -16,7 +16,7 @@
 		82E7ACB8205B9FA8006FC9E5 /* FanshuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACB7205B9FA8006FC9E5 /* FanshuTests.swift */; };
 		82E7ACC3205B9FA8006FC9E5 /* FanshuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACC2205B9FA8006FC9E5 /* FanshuUITests.swift */; };
 		82E7ACD1205BA4A8006FC9E5 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACD0205BA4A8006FC9E5 /* MessageViewController.swift */; };
-		A39FE252206920BD0077F4D3 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FE251206920BD0077F4D3 /* PersonalViewController.swift */; };
+		A39FE252206920BD0077F4D3 /* PersonalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FE251206920BD0077F4D3 /* PersonalTableViewController.swift */; };
 		A3EB069A206923890077E401 /* AddArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB0699206923890077E401 /* AddArticleViewController.swift */; };
 		A3EB069D206A086F0077E401 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB069C206A086F0077E401 /* ArticleViewModel.swift */; };
 		A3EB06A0206A088B0077E401 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB069F206A088B0077E401 /* Article.swift */; };
@@ -55,7 +55,7 @@
 		82E7ACC2205B9FA8006FC9E5 /* FanshuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanshuUITests.swift; sourceTree = "<group>"; };
 		82E7ACC4205B9FA8006FC9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82E7ACD0205BA4A8006FC9E5 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
-		A39FE251206920BD0077F4D3 /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonalViewController.swift; path = Fanshu/Personal/PersonalViewController.swift; sourceTree = SOURCE_ROOT; };
+		A39FE251206920BD0077F4D3 /* PersonalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonalTableViewController.swift; path = Fanshu/Personal/PersonalTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		A3EB0699206923890077E401 /* AddArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArticleViewController.swift; sourceTree = "<group>"; };
 		A3EB069C206A086F0077E401 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		A3EB069F206A088B0077E401 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 		A39FE2502069205D0077F4D3 /* Personal */ = {
 			isa = PBXGroup;
 			children = (
-				A39FE251206920BD0077F4D3 /* PersonalViewController.swift */,
+				A39FE251206920BD0077F4D3 /* PersonalTableViewController.swift */,
 			);
 			name = Personal;
 			path = "New Group";
@@ -303,7 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82E7ACA5205B9FA7006FC9E5 /* DiscoveryViewController.swift in Sources */,
-				A39FE252206920BD0077F4D3 /* PersonalViewController.swift in Sources */,
+				A39FE252206920BD0077F4D3 /* PersonalTableViewController.swift in Sources */,
 				82E7ACA1205B9FA7006FC9E5 /* AppDelegate.swift in Sources */,
 				82E7ACD1205BA4A8006FC9E5 /* MessageViewController.swift in Sources */,
 				A3EB06A0206A088B0077E401 /* Article.swift in Sources */,
