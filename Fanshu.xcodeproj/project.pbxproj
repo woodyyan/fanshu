@@ -16,7 +16,10 @@
 		82E7ACB8205B9FA8006FC9E5 /* FanshuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACB7205B9FA8006FC9E5 /* FanshuTests.swift */; };
 		82E7ACC3205B9FA8006FC9E5 /* FanshuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACC2205B9FA8006FC9E5 /* FanshuUITests.swift */; };
 		82E7ACD1205BA4A8006FC9E5 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACD0205BA4A8006FC9E5 /* MessageViewController.swift */; };
-		82E7ACD3205BA4C1006FC9E5 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACD2205BA4C1006FC9E5 /* MyViewController.swift */; };
+		A39FE252206920BD0077F4D3 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FE251206920BD0077F4D3 /* PersonalViewController.swift */; };
+		A3EB069A206923890077E401 /* AddArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB0699206923890077E401 /* AddArticleViewController.swift */; };
+		A3EB069D206A086F0077E401 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB069C206A086F0077E401 /* ArticleViewModel.swift */; };
+		A3EB06A0206A088B0077E401 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB069F206A088B0077E401 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +55,10 @@
 		82E7ACC2205B9FA8006FC9E5 /* FanshuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanshuUITests.swift; sourceTree = "<group>"; };
 		82E7ACC4205B9FA8006FC9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82E7ACD0205BA4A8006FC9E5 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
-		82E7ACD2205BA4C1006FC9E5 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		A39FE251206920BD0077F4D3 /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonalViewController.swift; path = Fanshu/Personal/PersonalViewController.swift; sourceTree = SOURCE_ROOT; };
+		A3EB0699206923890077E401 /* AddArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArticleViewController.swift; sourceTree = "<group>"; };
+		A3EB069C206A086F0077E401 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		A3EB069F206A088B0077E401 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +109,18 @@
 		82E7AC9F205B9FA7006FC9E5 /* Fanshu */ = {
 			isa = PBXGroup;
 			children = (
+				A3EB069E206A08770077E401 /* Data */,
+				A3EB069B206A08380077E401 /* ViewModel */,
+				A39FE2502069205D0077F4D3 /* Personal */,
 				82E7ACA0205B9FA7006FC9E5 /* AppDelegate.swift */,
 				82E7ACA2205B9FA7006FC9E5 /* FollowViewController.swift */,
 				82E7ACA4205B9FA7006FC9E5 /* DiscoveryViewController.swift */,
+				A3EB0699206923890077E401 /* AddArticleViewController.swift */,
 				82E7ACA6205B9FA8006FC9E5 /* Main.storyboard */,
 				82E7ACA9205B9FA8006FC9E5 /* Assets.xcassets */,
 				82E7ACAB205B9FA8006FC9E5 /* LaunchScreen.storyboard */,
 				82E7ACAE205B9FA8006FC9E5 /* Info.plist */,
 				82E7ACD0205BA4A8006FC9E5 /* MessageViewController.swift */,
-				82E7ACD2205BA4C1006FC9E5 /* MyViewController.swift */,
 			);
 			path = Fanshu;
 			sourceTree = "<group>";
@@ -132,6 +141,31 @@
 				82E7ACC4205B9FA8006FC9E5 /* Info.plist */,
 			);
 			path = FanshuUITests;
+			sourceTree = "<group>";
+		};
+		A39FE2502069205D0077F4D3 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE251206920BD0077F4D3 /* PersonalViewController.swift */,
+			);
+			name = Personal;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		A3EB069B206A08380077E401 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB069C206A086F0077E401 /* ArticleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A3EB069E206A08770077E401 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB069F206A088B0077E401 /* Article.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +303,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				82E7ACA5205B9FA7006FC9E5 /* DiscoveryViewController.swift in Sources */,
+				A39FE252206920BD0077F4D3 /* PersonalViewController.swift in Sources */,
 				82E7ACA1205B9FA7006FC9E5 /* AppDelegate.swift in Sources */,
 				82E7ACD1205BA4A8006FC9E5 /* MessageViewController.swift in Sources */,
-				82E7ACD3205BA4C1006FC9E5 /* MyViewController.swift in Sources */,
+				A3EB06A0206A088B0077E401 /* Article.swift in Sources */,
 				82E7ACA3205B9FA7006FC9E5 /* FollowViewController.swift in Sources */,
+				A3EB069D206A086F0077E401 /* ArticleViewModel.swift in Sources */,
+				A3EB069A206923890077E401 /* AddArticleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,8 +476,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XD7JAMNS86;
+				DEVELOPMENT_TEAM = E3X4D7MVBJ;
 				INFOPLIST_FILE = Fanshu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.Fanshu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,8 +492,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XD7JAMNS86;
+				DEVELOPMENT_TEAM = E3X4D7MVBJ;
 				INFOPLIST_FILE = Fanshu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.Fanshu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
