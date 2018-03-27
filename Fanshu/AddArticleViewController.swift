@@ -30,7 +30,7 @@ class AddArticleViewController: UIViewController {
             self.navigationController?.popViewController(animated: true)
         }))
 
-        self.present(alert, animated: true)
+        self.present(alert, animated: false)
     }
 
 }
