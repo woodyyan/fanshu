@@ -24,6 +24,13 @@ class AddArticleViewController: UIViewController {
 
     @IBAction func publish(_ sender: Any) {
         ArticleViewModel.articleData.append(Article(title: titleTextField.text!, content: contentTextView.text))
+        let alert = UIAlertController(title: "恭喜", message: "添加文章成功！！", preferredStyle: .alert)
+
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
+            self.navigationController?.popViewController(animated: true)
+        }))
+
+        self.present(alert, animated: true)
     }
 
 }
