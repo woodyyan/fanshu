@@ -100,7 +100,7 @@
             </objects>
             <point key="canvasLocation" x="774" y="587"/>
         </scene>
-        <!--添加-->
+        <!--添加文章-->
         <scene sceneID="BVv-kf-Le0">
             <objects>
                 <viewController id="Wia-9y-33x" sceneMemberID="viewController">
@@ -122,7 +122,7 @@
                         <viewLayoutGuide key="safeArea" id="zHF-hn-TAF"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="添加" image="second" id="uB3-WA-5HA"/>
-                    <navigationItem key="navigationItem" id="VsK-Ep-rFg"/>
+                    <navigationItem key="navigationItem" title="添加文章" id="VsK-Ep-rFg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rOx-Dn-FGT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -270,7 +270,7 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="O2Z-2r-xr0" kind="relationship" relationship="viewControllers" id="7Ob-Dr-b8S"/>
+                        <segue destination="O2Z-2r-xr0" kind="relationship" relationship="viewControllers" id="Zed-si-jh3"/>
                         <segue destination="rNk-yg-8xB" kind="relationship" relationship="viewControllers" id="Oab-MO-aHV"/>
                         <segue destination="lps-Lg-g9n" kind="relationship" relationship="viewControllers" id="Vy7-ym-umT"/>
                     </connections>

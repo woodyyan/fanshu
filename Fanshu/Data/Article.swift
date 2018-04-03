@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Article {
+struct Article {
     var title: String?
     var content: String?
     init(title: String, content: String) {

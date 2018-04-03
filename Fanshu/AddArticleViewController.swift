@@ -21,7 +21,6 @@ class AddArticleViewController: UIViewController {
         self.view.backgroundColor = UIColor.brown
     }
 
-
     @IBAction func publish(_ sender: Any) {
         ArticleViewModel.articleData.append(Article(title: titleTextField.text!, content: contentTextView.text))
         let alert = UIAlertController(title: "恭喜", message: "添加文章成功！！", preferredStyle: .alert)
