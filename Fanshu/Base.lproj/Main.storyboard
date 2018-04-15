@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -47,6 +47,51 @@
             </objects>
             <point key="canvasLocation" x="774" y="-1958"/>
         </scene>
+        <!--推荐-->
+        <scene sceneID="Vkj-KT-u1C">
+            <objects>
+                <viewController storyboardIdentifier="recommend" title="推荐" id="f6T-Lc-4Ji" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1vs-N0-ixr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="e6O-GE-gyh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vib-H7-Nur" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2620" y="-1065"/>
+        </scene>
+        <!--连载-->
+        <scene sceneID="Hmc-nn-ZeZ">
+            <objects>
+                <viewController storyboardIdentifier="issues" title="连载" id="tsz-bg-jFg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TIA-Ti-IOe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="FB9-CH-xlJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oLr-wd-K1Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3385" y="-1065"/>
+        </scene>
+        <!--专题-->
+        <scene sceneID="ooa-bb-ItG">
+            <objects>
+                <viewController storyboardIdentifier="special" title="专题" id="U1u-Wr-cCh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zg4-Lu-5Rk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="T95-8F-fDQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vwg-30-Vsm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4124" y="-1064"/>
+        </scene>
         <!--消息-->
         <scene sceneID="f1c-42-Cg8">
             <objects>
@@ -80,10 +125,10 @@
             </objects>
             <point key="canvasLocation" x="774" y="-1063"/>
         </scene>
-        <!--View Controller-->
+        <!--Discovery View Controller-->
         <scene sceneID="fp2-fU-Zmy">
             <objects>
-                <viewController id="8p8-7G-v6U" sceneMemberID="viewController">
+                <viewController id="8p8-7G-v6U" customClass="DiscoveryViewController" customModule="Fanshu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="va5-mJ-mdi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,7 +139,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AUt-4q-p87" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1695" y="-1064"/>
+            <point key="canvasLocation" x="1693.5999999999999" y="-1064.6176911544228"/>
         </scene>
         <!--添加文章-->
         <scene sceneID="BVv-kf-Le0">
