@@ -42,7 +42,6 @@ class PersonalTableViewController: UITableViewController {
         setupUI(button: integralButton)
         setupUI(button: integralStoreButton)
         setupUIData()
-        setupData()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -73,10 +72,6 @@ class PersonalTableViewController: UITableViewController {
         button.layer.masksToBounds = true
         button.layer.borderWidth = 1.0
         button.layer.borderColor = UIColor.init(red: 1.0, green: 0.478, blue: 0.435, alpha: 1.0).cgColor
-    }
-
-    func setupData() {
-        ArticleViewModel.articleData.append(Article(title: "你好", content: "你更好"))
     }
 
     func setupUIData()  {
