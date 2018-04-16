@@ -17,6 +17,8 @@
 		82E7ACC3205B9FA8006FC9E5 /* FanshuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACC2205B9FA8006FC9E5 /* FanshuUITests.swift */; };
 		82E7ACD1205BA4A8006FC9E5 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7ACD0205BA4A8006FC9E5 /* MessageViewController.swift */; };
 		A39FE252206920BD0077F4D3 /* PersonalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FE251206920BD0077F4D3 /* PersonalTableViewController.swift */; };
+		A3D4A0222084F6AC00284A3F /* PersonalTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D4A0212084F6AC00284A3F /* PersonalTableviewCell.swift */; };
+		A3D4A0242084F72000284A3F /* t.gif in Resources */ = {isa = PBXBuildFile; fileRef = A3D4A0232084F72000284A3F /* t.gif */; };
 		A3EB069A206923890077E401 /* AddArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB0699206923890077E401 /* AddArticleViewController.swift */; };
 		A3EB069D206A086F0077E401 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB069C206A086F0077E401 /* ArticleViewModel.swift */; };
 		A3EB06A0206A088B0077E401 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EB069F206A088B0077E401 /* Article.swift */; };
@@ -56,6 +58,8 @@
 		82E7ACC4205B9FA8006FC9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82E7ACD0205BA4A8006FC9E5 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		A39FE251206920BD0077F4D3 /* PersonalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonalTableViewController.swift; path = Fanshu/Personal/PersonalTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		A3D4A0212084F6AC00284A3F /* PersonalTableviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalTableviewCell.swift; sourceTree = "<group>"; };
+		A3D4A0232084F72000284A3F /* t.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = t.gif; path = Fanshu/t.gif; sourceTree = "<group>"; };
 		A3EB0699206923890077E401 /* AddArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArticleViewController.swift; sourceTree = "<group>"; };
 		A3EB069C206A086F0077E401 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		A3EB069F206A088B0077E401 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 		82E7AC94205B9FA7006FC9E5 = {
 			isa = PBXGroup;
 			children = (
+				A3D4A0232084F72000284A3F /* t.gif */,
 				82E7AC9F205B9FA7006FC9E5 /* Fanshu */,
 				82E7ACB6205B9FA8006FC9E5 /* FanshuTests */,
 				82E7ACC1205B9FA8006FC9E5 /* FanshuUITests */,
@@ -146,6 +151,7 @@
 		A39FE2502069205D0077F4D3 /* Personal */ = {
 			isa = PBXGroup;
 			children = (
+				A3D4A0212084F6AC00284A3F /* PersonalTableviewCell.swift */,
 				A39FE251206920BD0077F4D3 /* PersonalTableViewController.swift */,
 			);
 			name = Personal;
@@ -276,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82E7ACAD205B9FA8006FC9E5 /* LaunchScreen.storyboard in Resources */,
+				A3D4A0242084F72000284A3F /* t.gif in Resources */,
 				82E7ACAA205B9FA8006FC9E5 /* Assets.xcassets in Resources */,
 				82E7ACA8205B9FA8006FC9E5 /* Main.storyboard in Resources */,
 			);
@@ -309,6 +316,7 @@
 				A3EB06A0206A088B0077E401 /* Article.swift in Sources */,
 				82E7ACA3205B9FA7006FC9E5 /* FollowViewController.swift in Sources */,
 				A3EB069D206A086F0077E401 /* ArticleViewModel.swift in Sources */,
+				A3D4A0222084F6AC00284A3F /* PersonalTableviewCell.swift in Sources */,
 				A3EB069A206923890077E401 /* AddArticleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
